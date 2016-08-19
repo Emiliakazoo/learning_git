@@ -1,0 +1,38 @@
+
+* {
+	box-sizing:border-box;
+}
+body {
+	font-family: Arial, sans;
+}
+
+ul, li {
+	list-style-type:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	}
+
+header {
+	display:flex;
+	align-items:center;
+	width:96%;
+	margin:1rem auto;
+	background-color:lavender;
+	padding:10px;
+}
+
+header img {
+	margin-right:.75rem;
+}
+
+main, footer {
+	width:96%;
+	margin: 0 auto 1rem;
+	padding:10px;
+}
+
+footer {
+	background-color:lavender;
+}
